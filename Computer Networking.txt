@@ -1,0 +1,95 @@
+                                      Computer Networking
+Network Topology:
+It means how the device is connect each other. 
+OR
+It’s means the arrangement of a network including its modes (can be computer, printer etc.)
+
+Network -> A network is a set of devices media link (communication channel like wire)
+ The air of network is to exchange data such as audio, video form one point to another point.
+
+Network Topology are the following category
+1. Bus   Topology or  Network
+2. Ring          ,,                     ,,
+3. Star           ‘’                     ,, 
+4. Tree          ,,                      ,,
+5. Mesh       ,,                       ‘’ 	
+6. Hybrid     ,,                       ‘’
+
+* Point to point connection: 
+It means a dedicated link between two device.
+* Multipoint connection 
+When two or more device show a link, it known as Multipoint connection.
+
+Bus Topology 
+ 
+Terminater : It is used to absorb the signal when two signal reach the end.
+
+(i) There is a back bons cable two devices are connected. 
+(ii) The device are connected by Multipoint connection not point to point connection. 
+(iii) Number of cable for each device is one. So N number of device we need N number of cable plus a back bone cable.
+For example : If there are 4 devices then we need 4+1 no. of cables. 
+(iv) If there are n number of device we need n port. 
+(v) Realibity :  Bus topology doesn’t provide realibily since there is a single point of failure, It means any problems on backbone cable message can’t send, there is no alternative way to send the message. When the backbone fails the whole network collapse. 
+(vi) Security  : In bus topology there is no security because PC1 sends message to PC4 then PC2 and PC2 will be understand, when PC1 and PC4 exchange message as message passes through cable wire. 
+Disadvantages  : Network speed slow down as the number of computer increases Single point failure.    	
+
+                                          
+Data Transmission: 
+ When two component they are communicating each other that is communication. It’s means they are either transferring the data between each other or one item is sending or receiving the data.  
+Thus, communication means transmitting of data when data is transmitted it means bit’s are transmitted. 
+
+Type of Data Transmission 
+             
+                                             
+Serial Data Transmission 
+
+ 
+Definition of Serial Transmission
+  
+1. Incase of serial Transmission of data only 1 bit is transmitting at a time.
+2. In serial transmission bits are send one after another that is sequentially on the same channel.
+
+3. Serial Transmission can be either Synchronous or Asynchronous.
+4. Serial Transmission is between two computer or from a computer to an external device, located some distance away. 
+Example of mode transmission between computer and modem. 
+
+Parallel transmission 
+     
+Definition Parallel transmission
+1. In Parallel Transmission multiple bits ( usually 8 bits or bytes /  character ) are transforming at a same time. That is all bits are simultaneously transmitted. 
+Example of Parallel Transmission is computer and printer (close distance only, approx 6 miter) 
+
+Synchronous Transmission: 
+ 1. Synchronous Transmission is suitable for communication between buffer device. (such as between two computer)
+Example – Loading a webpage, between a conversation two people.
+2. Synchronous transmission has much higher data transmission rate then Asynchronous transmission.
+3. The sender and receiver clocks are synchronize, they should work efficiently.
+4. The sender a packet of data at a time. 
+5. Most network protocol such as ethernet, sonnet, is used Synchronous transmission. 
+
+Asynchronous Transmission:  
+ 1. In Asynchronous Transmission the communication system transmit data character  by character act irregular interment that is a sender sends a character at any convenient time the receiver accept it. 
+2. The transmission of data for Asynchronous transmission are not higher rate as compare to Synchronous transmission of data that is for Asynchronous transmission of data is very slow rate and inefficient. 
+3. The sender send only one character at a time (each character length is 5 to 8 bit) 
+4. Each character need start a bit and stop a bit, Start = 0 , Stop = 01. 
+5. There can be ideal time between each character.  ( Ideal means – No signal ) 
+6. Asynchronous Transmission is use for communication over telephone line. 
+
+Different between Synchronous Transmission and Asynchronous Transmission  
+
+Synchronous Transmission	Asynchronous Transmission  
+(i) Face to face discussion is one type of synchronous communication.	(i) Order food in restaurant that is home delivery this is asynchronous. 
+(ii) I am giving a online training course this is synchronous since in training course student can response immediately.	(ii) I am sending study material to my student this is asynchronous communication.
+(iii) The sender sending anything (data) then receiver should immediate response.	(iii) Sender sending anything (data) the receiver should not need not immediate response.
+(iv) Example: Loading a webpage or conversation between two people – it may be face to face through telephone.	(iv) Example: Email correspondence and message etc.
+(v) Blocking of data send continually. 	(v) Blocking of data send irregular interment. 
+
+
+
+
+   
+  
+                  
+                                                     Date Transmission Media
+Communication chennel  
+                                                                                                                                                                                             
